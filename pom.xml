@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.litavrina</groupId>
-	<artifactId>first_crud_app</artifactId>
+	<artifactId>crud_lombok_log_config</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>first_crud_app</name>
 	<description>Demo project for Spring Boot</description>
@@ -35,10 +35,16 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
